@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio website</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: #6053f7;
+            color: white;
+            font-family:poppins ,sans-serif;
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: #0c0e4c;
+        }
+        nav ul{
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li{
+            list-style: none;
+            margin: 0 23px;
+        }
+        nav ul li a{
+            text-decoration: none;
+          color: rgb(81, 122, 49);
+        }
+        nav ul li a:hover{
+            color: aquamarine;
+            font-size: 1.2rem;
+        }
+        main hr{
+            border: 0;
+            background: #eb82ec;
+            height: 1.2px;
+            margin: 40px 84px;
+        }
+        .firstSection{
+            display: flex;
+            justify-content: space-around;
+            margin: 110px 0;
+        }
+        .firstSection > div{
+            width: 30%;
+        }
+        .leftSection{
+            font-size: 3rem;
+        }
+        .leftSection .button{
+            padding: 50px 0;
+        }
+        .leftSection .btn {
+            padding: 12px;
+            background-color: #3a0d47;
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+        .rightSection img{
+            width: 80%;
+        }
+        .purple{
+            color: rgb(36, 8, 61);
+        }
+        .text-grey{
+            color: rgb(249, 218, 218);
+        }
+        #element{
+            color: rgb(36, 8, 61);
+        }
+        .SecondSection{
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+        .SecondSection h1{
+            font-size: 1.9rem;
+        }
+        .SecondSection .box{
+            background: white;
+            width: 80vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+        .SecondSection .vertical{
+            height:93px;
+            width: 1px;
+            background: white;
+            margin: 0 100px;
+        }
+        .image-top{
+            width: 23px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+        .vertical-title{
+            position: relative;
+            top: 75px;
+            width: 150px;
+
+        }
+        .vertical-desc{
+            position: relative;
+            top: 86px;
+            color: gray;
+            width: 150px;
+
+        }
+        footer{
+            background-color: rgb(6, 35, 87);
+        }
+        .footer{
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+        .footer ul{
+            list-style: none;
+        }
+        .footer > div{
+            width: 223px;
+        }
+        footer .footer-rights{
+            text-align: center;
+            color: gray;
+            padding: 12px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Amarendra portfolio</div>
+            <div class="right">
+                <ul>
+                  <li><a href="/">Home</a></li>
+                  <li><a href="/">About</a></li>
+                  <li><a href="/">Services</a></li>
+                  <li><a href="/">projects</a></li>
+                  <li><a href="/">Contct me</a></li> 
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, my name is <span class="purple">Amarendra</span> 
+                <div>
+                    And I am a passionate
+                </div>
+                <span id="element"></span>
+                <div class="button">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Visit Github</button>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="bg.png" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="SecondSection">
+            <span class="text-grey">What I have done so far</span>
+            <h1>work Experience</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="dev.png" alt="">
+                    <div class="vertical-title">
+                        HTML Developer (2010-2012)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, aspernatur!
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="whatsapp.jpeg" alt="">
+                    <div class="vertical-title">
+                        Node.js Developer (2015-2017)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, aspernatur!
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="instagram.jpeg" alt="">
+                    <div class="vertical-title">
+                        Software Developer (2018-2020)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, aspernatur!
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="Youtube_logo.png" alt="">
+                    <div class="vertical-title">
+                        Python Developer (2021-2023)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, aspernatur!
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="Facebook.png" alt="">
+                    <div class="vertical-title">
+                        Java Developer (2024-2026)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, aspernatur!
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="twitter.png" alt="">
+                    <div class="vertical-title">
+                        machine Developer (2026-2029)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, aspernatur!
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Amarendra developer portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                    <li>Project </li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                    <li>Project </li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                    <li>Project </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            Copyrights &#169; amarendraportfolio.com | All rights reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Web developer','Graphic Designer','Web Designer.'],
+      typeSpeed: 50,
+    });
+  </script>
+</body>
+</html>
